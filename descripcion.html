@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Cinema</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div class="contenedor_header">
+    <h1>Cuevana 3</h1>
+    <img src="logo.png" alt="">
+    <nav>
+    </div>
+        <section class="generos">
+         <div class="container_section">
+            <h2>Géneros</h2>
+            <select >
+              <option>Acción</option>
+              <option>Aventura</option>
+              <option>Comedia</option>
+              <option>Drama</option>
+              <option>Fantasía</option>
+              <option>Terror</option>
+              <option>Ciencia ficción</option>
+              <option>Misterio</option>
+              <option>Horror</option>
+              <option>Familiar</option>
+              <option>Crimen</option>
+              <option>Musica</option>
+              <option>Animacion</option>
+            </select>
+            </div>  
+          </section>
+
+          <section class="series">
+            <div class="container_section">
+            <h2>Series</h2>
+            <select>
+              <option>Series</option>
+              <option>Estenos</option>
+              <option>Mas vistas</option>
+              <option>Rating</option>
+            </select>
+            </div>
+          </section>
+
+          <section class="peliculas">
+            <div class="container_section">
+            <h2>Peliculas</h2>
+            <select>
+              <option>Peliculas</option>
+              <option>Estenos</option>
+              <option>Mas vistas</option>
+              <option>Rating</option>
+            </select>
+            </div>
+          </section>
+
+          <form id="search-form" action="/search" method="get" class="buscador">
+            <input type="text" class="boton_buscar" name="q" id="search-input" placeholder="Buscar">
+            <button type="submit" class="boton_buscar">Buscar</button>
+          </form>
+      </nav>
+  </header>
+  
+  <main>
+    <div class="contenedor_principal">
+    <div class="contenedor_descripcion">
+        <div class="contenedor_foto">
+        <img src="logo.png" alt="Película Invitación a un asesinato">
+        </div>
+        <div class="contenedor_info">
+    <h2>Invitación a un asesinato</h2>
+    <ul>
+      <ol>Año: 2023</ol>
+      <ol>Género: Comedia, Misterio</ol>
+      <ol>Director: Julio Bárcenas, José Manuel Cravioto, Alfredo Sánchez López, Edison Paz Trejo, Fidel Cuevas, Sofía Vanni</ol>
+      <ol>Actores: Aarón Díaz, José María de Tavira, Manolo Cardona, Maribel Verdú, Regina Blandón</ol>
+    </ul>
+    <p>
+      La excéntrica millonaria Olivia envía a su media hermana Agatha, y a un grupo de viejos conocidos, una misteriosa invitación para pasar un fin de semana en su yate, donde descubrirán el verdadero motivo detrás de esta invitación: la celebración de... ¿un asesinato?
+    </p>
+    </div>
+</div>
+
+<div class="contenedor_video">
+    <img src="./logo.png" class="video" alt="">
+</div>
+    <div class="botones">
+        <button>
+            <a href="./">Ver trailer</a>
+        </button>
+        <button>
+            <a href="">Ver reseñas</a>
+        </button>
+        <button>
+            <a href="">Ver reparto</a>
+        </button>
+    </div>
+</section>
+
+<div class="input_usuario"> 
+<section class="textarea_section">
+  <h3>nombre</h3>
+  <textarea name="nombre_usuario" id="nombre_usuario" cols="30" rows="10"></textarea>
+</section>
+
+<section class="textarea_section">
+    <h3>Comentario</h3>
+    <textarea name="comentario" id="comentario" cols="30" rows="10"></textarea>
+    <input type="submit" class="enviar_Comentario" value="Enviar comentario">
+  </section>
+
+<section class="textarea_section">
+  <h3>Correo Electronico</h3>
+  <textarea name="correo_electronico" id="correo_electronico" cols="30" rows="10"></textarea>
+  
+</section>
+</div>
+</div>
+
+  </main>
+  <footer>
+    <p>Cinema</p>
+  </footer>
+</body>
+</html>
+
+
+
